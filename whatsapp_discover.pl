@@ -25,8 +25,16 @@ print "Unknown option: @_\n\n" if ( @_ );
 print "\nWhatsapp Discover v1.1  --- Deepak Daswani (\@dipudaswani) 2015\n";
 print "                            http://deepakdaswani.es \n";
 print "Usage: whatsapp_discover -i interface | -f pcapfile[s]\n";
-print "---------------------------------------------------------------\n\n\n";
-exit;
+print "
+exit;Parsing /home/deepak/pcapfiles/freewifi-01.cap ...
+Got 1 number! S.O: iPhone-2.11.4-5222 Mobile number: +201155765485
+Parsing /home/deepak/pcapfiles/freewifi-02.cap ...
+Got 1 number! S.O: Android-2.11.152 Mobile number: +201155765485
+Got 1 number! S.O: Android-2.11.136 Mobile number: +201155765485
+Parsing /home/deepak/pcapfiles/freewifi-03.cap ...
+Got 1 number! S.O: BB-2.8.7345-443 Mobile number: +201155765485
+Parsing /home/deepak/pcapfiles/freewifi-04.cap ...
+Got 1 number! S.O: Symbian-2.11.173-443 Mobile number: +201155765485
 }
 
 # Parse command line arguments 
